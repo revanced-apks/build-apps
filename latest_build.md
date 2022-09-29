@@ -13,8 +13,8 @@ TikTok version: 26.3.4
 
 YouTube version: 17.39.32  
 
-Music (arm64-v8a) version: 5.25.51  
+Music (arm64-v8a) version: 5.26.52  
 
-Music (arm-v7a) version: 5.25.51  
+Music (arm-v7a) version: 5.26.52  
  
 Use [microG APK](https://www.apkmirror.com/apk/team-vanced/microg-youtube-vanced/) for YouTube and Music
