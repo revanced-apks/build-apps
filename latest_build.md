@@ -11,7 +11,7 @@ Reddit version: 2022.37.0
 
 TikTok version: 26.3.4  
 
-YouTube version: 17.40.33  
+YouTube version: 17.40.34  
 
 Music (arm64-v8a) version: 5.27.50  
 
