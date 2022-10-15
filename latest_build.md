@@ -1,4 +1,4 @@
-2022-10-13
+2022-10-15
   
 CLI: revanced-cli-2.15.0-all.jar  
 Integrations: app-release-unsigned-v0.52.0.apk  
@@ -11,7 +11,7 @@ Reddit version: 2022.38.0
 
 TikTok version: 26.4.5  
 
-YouTube version: 17.41.34  
+YouTube version: 17.41.36  
 
 Music (arm64-v8a) version: 5.28.51  
 
