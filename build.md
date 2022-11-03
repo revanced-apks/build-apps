@@ -1,17 +1,17 @@
 CLI: revanced-cli-2.16.0-all.jar  
 Integrations: app-release-unsigned-v0.66.0.apk  
-Patches: revanced-patches-2.101.0.jar  
+Patches: revanced-patches-2.102.0.jar  
 
-### [2.101.0](https://github.com/revanced/revanced-patches/compare/v2.100.3...v2.101.0) (2022-11-01)
+### [2.102.0](https://github.com/revanced/revanced-patches/compare/v2.101.0...v2.102.0) (2022-11-03)
 ### Features
-* **youtube:** bump patches compatibility to v17.43.36 ([#924](https://github.com/revanced/revanced-patches/issues/924)) ([3867514](https://github.com/revanced/revanced-patches/commit/38675144dcb616474a047bcf8f7e1bf1f668ea46))
+* **youtube-music:** bump patches compatibility to v5.31.50 ([#962](https://github.com/revanced/revanced-patches/issues/962)) ([476fcc8](https://github.com/revanced/revanced-patches/commit/476fcc87ca0d33cfbf251e4307755f02ed8f8baa))
 
   
-YouTube: 17.43.36  
-Music (arm64-v8a): 5.30.51  
-Music (arm-v7a): 5.30.51  
+YouTube: 17.44.32  
+Music (arm64-v8a): 5.31.50  
+Music (arm-v7a): 5.31.50  
 Twitter: 9.65.1-release.0  
-Reddit: 2022.40.0  
+Reddit: 2022.41.1  
 TikTok: 26.7.15  
 Spotify: 8.7.78.373  
 
