@@ -1,10 +1,10 @@
 CLI: revanced-cli-2.16.0-all.jar  
-Integrations: app-release-unsigned-v0.66.0.apk  
-Patches: revanced-patches-2.102.1.jar  
+Integrations: app-release-unsigned-v0.67.0.apk  
+Patches: revanced-patches-2.104.0.jar  
 
-#### [2.102.1](https://github.com/revanced/revanced-patches/compare/v2.102.0...v2.102.1) (2022-11-04)
-### Bug Fixes
-* use original app name ([#977](https://github.com/revanced/revanced-patches/issues/977)) ([ffc3c08](https://github.com/revanced/revanced-patches/commit/ffc3c08d96734893121397d506a97bd50b06bc1d))
+### [2.104.0](https://github.com/revanced/revanced-patches/compare/v2.103.0...v2.104.0) (2022-11-06)
+### Features
+* **hexeditor:** `disable-ads` patch ([#973](https://github.com/revanced/revanced-patches/issues/973)) ([a48e5fd](https://github.com/revanced/revanced-patches/commit/a48e5fd50dcf9ee061ffd5c5ed0b997067f40652))
 
   
 YouTube: 17.44.34  
