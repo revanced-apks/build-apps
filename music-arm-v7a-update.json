@@ -1,6 +1,6 @@
 {
-  "version": "v5.33.51",
-  "versionCode": 80,
-  "zipUrl": "https://github.com/revanced-apks/build-apps/releases/download/80/music-revanced-magisk-v5.33.51-arm-v7a.zip",
+  "version": "v5.34.51",
+  "versionCode": 83,
+  "zipUrl": "https://github.com/revanced-apks/build-apps/releases/download/83/music-revanced-magisk-v5.34.51-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/revanced-apks/build-apps/update/build.md"
 }
