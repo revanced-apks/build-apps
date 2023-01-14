@@ -15,13 +15,13 @@ Patches: revanced-patches-2.154.0.jar
 
   
 **App Versions:**  
-Music (arm-v7a): 5.39.52  
 YouTube: 17.49.37  
 Music (arm64-v8a): 5.39.52  
-Reddit: 2023.01.0  
 Twitter: 9.71.0-release.0  
+Music (arm-v7a): 5.39.52  
+Reddit: 2023.01.0  
 Twitch: 14.3.3  
-TikTok: 27.2.5  
+TikTok: 27.8.15  
 Spotify: 8.7.92.521  
 Citra: bed6a4f12  
 WarnWetter: 4.0.7  
