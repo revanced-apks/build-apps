@@ -23,7 +23,7 @@ WarnWetter: 4.0.7
 Windyapp: 34.0.2  
 NyxMusicPlayer: 2.2.5  
 IconPackStudio: 2.1 build 028  
-TickTick: 6.4.4.1  
+TickTick: 6.4.4.2  
 Tasker: 6.0.9  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
