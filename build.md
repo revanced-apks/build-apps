@@ -14,16 +14,18 @@ Patches: revanced-patches-2.159.0.jar
 
   
 **App Versions:**  
-YouTube: 18.04.35  
+YouTube: 18.04.41  
 Music (arm64-v8a): 5.42.50  
 Music (arm-v7a): 5.42.50  
 Twitter: 9.69.1-release.0  
 Reddit: 2022.43.0  
 Twitch: 14.4.0  
 TikTok: 27.8.3  
+Spotify: 8.8.6.472  
 Citra: bed6a4f12  
 WarnWetter: 4.0.7  
 Windyapp: 34.0.2  
+MyExpenses: 3.4.8  
 NyxMusicPlayer: 2.2.5  
 IconPackStudio: 2.1 build 028  
 TickTick: 6.4.4.2  
