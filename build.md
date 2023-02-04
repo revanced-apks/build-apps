@@ -23,6 +23,7 @@ Twitch: 14.4.0
 TikTok: 27.8.3  
 Spotify: 8.8.6.472  
 Citra: bed6a4f12  
+Backdrops: 4.52  
 WarnWetter: 4.0.7  
 Windyapp: 34.0.2  
 MyExpenses: 3.4.8  
