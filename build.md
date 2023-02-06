@@ -14,7 +14,7 @@ Patches: revanced-patches-2.159.0.jar
 
   
 **App Versions:**  
-YouTube: 18.04.41  
+YouTube: 18.05.34  
 Music (arm64-v8a): 5.42.50  
 Music (arm-v7a): 5.42.50  
 Twitter: 9.69.1-release.0  
