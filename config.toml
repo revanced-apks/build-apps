@@ -1,12 +1,14 @@
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
+
 compression-level = 9         # compression level for module zips. between 1 and 9
 logging-to-file = true        # enables logging of every patch process to a seperate file
 enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 1             # max number of concurrent building jobs
+
 build-mindetach-module = true
 
 # add 'enabled = false' for not patching a specific app
-[YouTube]
+[YouTube-Stable]
 enabled = true
 build-mode = "both"                                                   # 'both', 'apk' or 'module'
 excluded-patches = "debugging"                                        # whitespace seperated list of patches to exclude (multiline strings are not supported)
@@ -16,7 +18,7 @@ exclusive-patches = false                                             # excludes
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "ytrv-magisk"
 
-[YouTube_Unstable]
+[YouTube-Latest]
 enabled = true
 build-mode = "both"                                                   # 'both', 'apk' or 'module'
 excluded-patches = "debugging"                                        # whitespace seperated list of patches to exclude (multiline strings are not supported)
@@ -63,7 +65,7 @@ version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 
 [TikTok]
-enabled = false
+enabled = true
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 
@@ -79,7 +81,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/citra-emulator/citra-emulator/"
 arch = "arm64-v8a"
 
 [Backdrops]
-enabled = false
+enabled = true
 uptodown-dlurl = "https://backdrops.en.uptodown.com/android"
 
 [WarnWetter]

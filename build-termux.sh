@@ -24,7 +24,7 @@ yes "" | pkg update -y && pkg install -y git wget openssl jq openjdk-17 zip
 
 pr "Cloning revanced-magisk-module repository..."
 if [ -d revanced-magisk-module ]; then
-	if ask "Directory revanced-magisk-module already exists. Do you want to clone the repo again and overwrite your config? [y/n]"; then
+	if ask "Directory revanced-magisk-module already exists. Do you want to clone the repo again and overwrite your config? [y/n]"; the
 		rm -rf revanced-magisk-module
 		git clone https://github.com/j-hc/revanced-magisk-module --recurse --depth 1
 		sed -i '/^enabled.*/d; /^\[.*\]/a enabled = false' revanced-magisk-module/config.toml
@@ -50,6 +50,7 @@ fi
 
 cd build
 pr "Ask for storage permission"
+
 until
 	yes | termux-setup-storage >/dev/null 2>&1
 	ls /sdcard >/dev/null 2>&1
@@ -65,6 +66,7 @@ for op in *; do
 done
 
 pr "Outputs are available in /sdcard/Download/revanced-magisk-module folder"
+
 am start -a android.intent.action.VIEW -d file:///sdcard/Download/revanced-magisk-module -t resource/folder
 sleep 2
 am start -a android.intent.action.VIEW -d file:///sdcard/Download/revanced-magisk-module -t resource/folder

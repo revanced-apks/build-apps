@@ -85,6 +85,7 @@ get_prebuilts() {
 	dl_if_dne "${MODULE_TEMPLATE_DIR}/bin/arm64/cmpr" "https://github.com/j-hc/cmpr/releases/latest/download/cmpr-arm64-v8a"
 	dl_if_dne "${MODULE_TEMPLATE_DIR}/bin/arm/cmpr" "https://github.com/j-hc/cmpr/releases/latest/download/cmpr-armeabi-v7a"
 
+
 	HTMLQ="${TEMP_DIR}/htmlq"
 	if [ ! -f "${TEMP_DIR}/htmlq" ]; then
 		req "https://github.com/mgdm/htmlq/releases/latest/download/htmlq-x86_64-linux.tar.gz" "${TEMP_DIR}/htmlq.tar.gz"
@@ -166,6 +167,7 @@ dl_apkmirror() {
 	local url=$1 version=${2// /-} output=$3 arch=$4
 	local resp node app_table dlurl=""
 	[ "$arch" = universal ] && apparch=(universal noarch 'arm64-v8a + armeabi-v7a') || apparch=("$arch")
+
 	url="${url}/${url##*/}-${version//./-}-release/"
 	resp=$(req "$url" -) || return 1
 	for ((n = 2; n < 50; n++)); do
@@ -209,6 +211,7 @@ get_apkmirror_pkg_name() { req "$1" - | sed -n 's;.*id=\(.*\)" class="accent_col
 # -------------------- uptodown --------------------
 get_uptodown_resp() { req "${1}/versions" -; }
 get_uptodown_vers() { sed -n 's;.*version">\(.*\)</span>$;\1;p' <<<"$1"; }
+
 dl_uptodown() {
 	local uptwod_resp=$1 version=$2 output=$3
 	local url
@@ -298,7 +301,9 @@ build_rv() {
 	if [ ! -f "$stock_apk" ]; then
 		if [ "$dl_from" = apkmirror ]; then
 			pr "Downloading '${app_name}' from APKMirror"
+
 			local apkm_arch
+
 			if [ "$arch" = "all" ]; then
 				apkm_arch="universal"
 			elif [ "$arch" = "arm64-v8a" ]; then
