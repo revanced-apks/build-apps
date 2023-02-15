@@ -12,8 +12,9 @@ Patches: revanced-patches-2.162.0.jar
   
 **App Versions:**  
 YouTube-Stable: 18.03.36  
-YouTube-Latest: 18.06.35  
 Music (arm64-v8a): 5.44.52  
+YouTube-Latest: 18.06.35  
+Music (arm-v7a): 5.44.52  
 Twitter: 9.69.1-release.0  
 Reddit: 2023.05.0  
 Twitch: 14.5.2  
@@ -23,7 +24,7 @@ Citra (arm64-v8a): bed6a4f12
 Backdrops: 4.52  
 WarnWetter: 4.0.7  
 Windyapp: 34.0.2  
-MyExpenses: 3.4.8  
+MyExpenses: 3.5.0.1  
 IconPackStudio: 2.1 build 028  
 TickTick (arm64-v8a): 6.5.0.0  
 Tasker: 6.0.9  
