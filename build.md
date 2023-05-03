@@ -14,20 +14,22 @@ Patches: revanced-patches-2.173.0.jar
   
 **App Versions:**  
 YouTube: 18.16.37  
+Music (arm64-v8a): 5.55.53  
 Music (arm-v7a): 5.55.53  
-Twitter: 9.86.0-release.0  
+Twitter: 9.87.0-release.0  
 Reddit: 2023.12.0  
 Twitch: 14.6.1  
 TikTok: 27.8.3  
 Spotify: 8.8.28.409  
-Citra (arm64-v8a): bed6a4f12  
 Backdrops: 4.52  
+Citra (arm64-v8a): bed6a4f12  
 WarnWetter: 4.1.1  
 Windyapp: 34.0.2  
-IconPackStudio: 2.1 build 028  
 MyExpenses: 3.4.9  
+IconPackStudio: 2.1 build 028  
 TickTick (arm64-v8a): 6.6.0.2  
 Tasker: 6.0.9  
+Instagram-arm64 (arm64-v8a): 281.0.0.19.105  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
 
