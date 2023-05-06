@@ -1,4 +1,4 @@
-CLI: revanced-cli-2.21.0-all.jar  
+CLI: revanced-cli-2.22.0-all.jar  
 Integrations: revanced-integrations-0.107.0.apk  
 Patches: revanced-patches-2.173.0.jar  
 
@@ -21,15 +21,15 @@ Reddit: 2023.12.0
 Twitch: 14.6.1  
 TikTok: 27.8.3  
 Spotify: 8.8.28.409  
+Spotify-Lite: 1.9.0.29900  
 Backdrops: 4.52  
-Citra (arm64-v8a): bed6a4f12  
-WarnWetter: 4.1.1  
-Windyapp: 34.0.2  
 MyExpenses: 3.4.9  
 IconPackStudio: 2.1 build 028  
-TickTick (arm64-v8a): 6.6.0.2  
-Tasker: 6.0.9  
+TickTick (arm64-v8a): 6.6.1.1  
+Tasker: 6.1.27  
 Instagram-arm64 (arm64-v8a): 281.0.0.19.105  
+Instagram-arm (arm-v7a): 281.0.0.19.105  
+InShorts-arm64 (arm64-v8a): 5.4.11  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
 
