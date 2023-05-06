@@ -24,11 +24,14 @@ Spotify: 8.8.28.409
 Spotify-Lite: 1.9.0.29900  
 Backdrops: 4.52  
 MyExpenses: 3.4.9  
+NyxMusicPlayer: 2.2.2  
 IconPackStudio: 2.1 build 028  
 TickTick (arm64-v8a): 6.6.1.1  
 Tasker: 6.1.27  
-Instagram-arm64 (arm64-v8a): 281.0.0.19.105  
 Instagram-arm (arm-v7a): 281.0.0.19.105  
+Instagram-arm64 (arm64-v8a): 281.0.0.19.105  
+Facebook-arm64 (arm64-v8a): 413.0.0.30.104  
+Facebook-arm (arm-v7a): 413.0.0.30.104  
 InShorts-arm64 (arm64-v8a): 5.4.11  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
