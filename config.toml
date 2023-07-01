@@ -14,7 +14,7 @@ version = "auto"                                                      # 'auto', 
 exclusive-patches = true                                             # excludes all patches by default
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "ytrv-magisk"
-arch = "arm-v7a"
+arch = "universal"
 
 [Music-arm64]
 enabled = false
