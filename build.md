@@ -29,8 +29,8 @@ Backdrops: 4.52
 MyExpenses: 3.4.9  
 NyxMusicPlayer: 2.2.2  
 IconPackStudio: 2.1 build 028  
-Tasker: 6.1.33  
 TickTick (arm64-v8a): 6.6.5.0  
+Tasker: 6.1.33  
 Instagram-arm64 (arm64-v8a): 275.0.0.27.98  
 Instagram-arm (arm-v7a): 275.0.0.27.98  
 Facebook-Messenger-arm64 (arm64-v8a): 415.0.0.14.47  
