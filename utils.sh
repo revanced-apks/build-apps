@@ -182,7 +182,9 @@ dl_apkmirror() {
 		return 0
 	}
 	local resp node app_table dlurl=""
-	[ "$arch" = universal ] && apparch=(universal noarch 'arm64-v8a + armeabi-v7a') || apparch=("$arch")
+	if [ "$arch" = universal ]; then apparch=(universal noarch 'arm64-v8a + armeabi-v7a');
+	elif [ "$arch" = arm64-v8a ]; then apparch=(arm64-v8a 'arm64-v8a + x86_64');
+	else apparch=("$arch"); fi
 	url="${url}/${url##*/}-${version//./-}-release/"
 	resp=$(req "$url" -) || return 1
 	for ((n = 1; n < 40; n++)); do
@@ -192,14 +194,14 @@ dl_apkmirror() {
 		if [ "$(sed -n 3p <<<"$app_table")" = "$apkorbundle" ] && { [ "$apkorbundle" = BUNDLE ] ||
 			{ [ "$apkorbundle" = APK ] && [ "$(sed -n 6p <<<"$app_table")" = "$dpi" ] &&
 				isoneof "$(sed -n 4p <<<"$app_table")" "${apparch[@]}"; }; }; then
-			dlurl=https://www.apkmirror.com$($HTMLQ --attribute href "div:nth-child(1) > a:nth-child(1)" <<<"$node")
+			dlurl=$($HTMLQ --base https://www.apkmirror.com --attribute href "div:nth-child(1) > a:nth-child(1)" <<<"$node")
 			break
 		fi
 	done
 	[ -z "$dlurl" ] && return 1
-	url="https://www.apkmirror.com$(req "$dlurl" - | sed -n 's;.*href="\(.*key=[^"]*\)">.*;\1;p' | tail -1)"
+	url=$(req "$dlurl" - | $HTMLQ --base https://www.apkmirror.com --attribute href "a.btn")
 	if [ "$apkorbundle" = BUNDLE ] && [[ "$url" != *"&forcebaseapk=true" ]]; then url="${url}&forcebaseapk=true"; fi
-	url="https://www.apkmirror.com$(req "$url" - | sed -n 's;.*href="\(.*key=[^"]*\)">.*;\1;p')"
+	url=$(req "$url" - | $HTMLQ --base https://www.apkmirror.com --attribute href "span > a[rel = nofollow]")
 	req "$url" "$output"
 }
 get_apkmirror_vers() {
