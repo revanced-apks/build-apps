@@ -1,5 +1,5 @@
-YouTube: 18.23.35  
 Music (arm64-v8a): 6.15.51  
+YouTube: 18.23.35  
 Music (arm-v7a): 6.15.51  
 Twitter: 10.3.0-release.0  
 Twitch: 15.4.1  
@@ -10,8 +10,15 @@ Spotify: 8.8.62.491
 IconPackStudio: 2.1 build 028  
 TickTick: 6.6.8.1  
 Tasker: 6.2.12-rc  
+Instagram (arm64-v8a): 275.0.0.27.98  
+Instagram (arm-v7a): 275.0.0.27.98  
 Facebook-Messenger-arm64: 422.0.0.18.107  
 Facebook-Messenger-arm: 422.0.0.18.107  
+InShorts (arm-v7a): 5.6.4  
+InShorts (arm64-v8a): 5.6.4  
+Music-Extended (arm-v7a): 6.15.51  
+Music-Extended (arm64-v8a): 6.15.51  
+YouTube-Extended: 18.30.37  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
 
@@ -37,5 +44,39 @@ Patches: ReVanced/revanced-patches-2.187.0.jar
 * **Sync for Reddit:** add `Disable Sync for Lemmy bottom sheet` patch ([56b535b](https://github.com/ReVanced/revanced-patches/commit/56b535b2a136d4b0afbddf2c8e251889c2555056))
 * **YouTube - Hide layout components:** Hide `chips shelf` ([#2699](https://github.com/ReVanced/revanced-patches/issues/2699)) ([8e6058b](https://github.com/ReVanced/revanced-patches/commit/8e6058b62350b3d14d79e6fe52b0ad781b66b5de))
 * **YouTube:** add `Player Flyout Menu` patch ([#2295](https://github.com/ReVanced/revanced-patches/issues/2295)) ([aea0af0](https://github.com/ReVanced/revanced-patches/commit/aea0af059784ae4820a0e73ff91f97bbc3ebc4c7))
+
+---
+CLI: inotia00/revanced-cli-2.22.2-all.jar  
+Integrations: inotia00/revanced-integrations-0.115.1.apk  
+Patches: inotia00/revanced-patches-2.187.1.jar  
+
+YouTube
+==
+- feat(youtube): add support version `v18.30.37`
+- feat(youtube/hide-button-container): now it support versions other than YouTube v18.20.39 https://github.com/ReVanced/revanced-patches/pull/2723
+- fix(youtube/integration): move dependence to dummy class path
+- fix(youtube/microg-support): app does not close when an error occurs
+- fix(youtube/microg-support): error toast message is not set correctly
+- feat(youtube/translations): update translation
+`Belarusian`, `Bulgarian`, `Chinese Traditional`, `French`, `German`, `Greek`, `Hungarian`, `Indonesian`, `Italian`, `Japanese`, `Polish`, `Russian`, `Vietnamese`
+
+
+Music
+==
+- feat(music): add `hide-channel-guidelines` patch
+- feat(music/litho): add some exception
+- feat(music/enable-new-layout): change default value
+- feat(music/enable-new-layout): forcibly disable when the switch is off
+- feat(music/enable-sleep-timer): forcibly disable when the switch is off
+- feat(music/translations): update translation
+`Brazilian`, `Chinese Traditional`, `French`, `Indonesian`, `Korean`, `Russian`, `Spanish`, `Ukrainian`, `Vietnamese`
+
+
+Etc
+==
+- At the end of this release, RVX has been [discontinued](https://github.com/inotia00/revanced-documentation/wiki/Announcement). Thank you for using it so far.
+
+
+※ Compatible ReVanced Manager: [RVX Manager v1.5.2 (fork)](https://github.com/inotia00/revanced-manager/releases/tag/v1.5.2)
 
 ---  
