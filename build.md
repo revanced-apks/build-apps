@@ -7,19 +7,18 @@ TikTok: 30.9.4
 Reddit: 2023.32.1  
 Messenger (arm64-v8a): 422.0.0.18.107  
 Spotify-Lite: 1.9.0.43809  
+Spotify: 8.8.62.491  
 IconPackStudio: 2.1 build 028  
 TickTick (arm64-v8a): 6.6.8.1  
 TickTick (arm-v7a): 6.6.8.1  
 Tasker: 6.2.12-rc  
 Instagram (arm64-v8a): 275.0.0.27.98  
 Instagram (arm-v7a): 275.0.0.27.98  
-Spotify: 8.8.62.491  
 InShorts (arm64-v8a): 5.6.4  
 InShorts (arm-v7a): 5.6.4  
 Music-Extended (arm64-v8a): 6.15.51  
 Music-Extended (arm-v7a): 6.15.51  
 YouTube-Extended: 18.31.40  
-Reddit-Extended: 2023.32.1  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
 
@@ -47,7 +46,7 @@ Patches: ReVanced/revanced-patches-2.187.0.jar
 * **YouTube:** add `Player Flyout Menu` patch ([#2295](https://github.com/ReVanced/revanced-patches/issues/2295)) ([aea0af0](https://github.com/ReVanced/revanced-patches/commit/aea0af059784ae4820a0e73ff91f97bbc3ebc4c7))
 
 ---
-CLI: ReVanced/revanced-cli-2.22.0-all.jar  
+CLI: inotia00/revanced-cli-2.22.2-all.jar  
 Integrations: YT-Advanced/revanced-integrations-0.117.0.apk  
 Patches: YT-Advanced/revanced-patches-2.188.1.jar  
 
