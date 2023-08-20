@@ -103,24 +103,34 @@ version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/inshorts-formerly-news-in-shorts/inshorts-news-in-60-words-2/"
 apkmirror-arch = "both"
 
-[Music-Extended] # unmaintained
-enabled = false
+[Music-Extended]
+enabled = true
 app-name = "Music"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
+patches-source = "YT-Advanced/ReX-patches"
+integrations-source = "YT-Advanced/ReX-integrations"
+cli-source = "revanced/revanced-cli"
+rv-brand = "ReVanced Extended Fork"
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 apkmirror-arch = "both"
 
-[YouTube-Extended] # unmaintained
-enabled = false
+[YouTube-Extended] 
+enabled = true
 app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
+patches-source = "YT-Advanced/ReX-patches"
+integrations-source = "YT-Advanced/ReX-integrations"
+cli-source = "revanced/revanced-cli"
+rv-brand = "ReVanced Extended Fork"
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+
+[Reddit-Extended] 
+enabled = true
+app-name = "Reddit"
+patches-source = "YT-Advanced/ReX-patches"
+integrations-source = "YT-Advanced/ReX-integrations"
+cli-source = "revanced/revanced-cli"
+rv-brand = "ReVanced Extended Fork"
+build-mode = "apk"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 
