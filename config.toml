@@ -124,13 +124,3 @@ rv-brand = "ReVanced Extended Fork"
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
-[Reddit-Extended] 
-enabled = true
-app-name = "Reddit"
-patches-source = "YT-Advanced/ReX-patches"
-integrations-source = "YT-Advanced/ReX-integrations"
-cli-source = "revanced/revanced-cli"
-rv-brand = "ReVanced Extended Fork"
-build-mode = "apk"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
-
