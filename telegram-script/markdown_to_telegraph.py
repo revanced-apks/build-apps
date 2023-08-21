@@ -10,15 +10,24 @@ class MarkdownToTelegraph:
         self.telegraph = Telegraph()
         self.telegraph.create_account(short_name=self.short_name, author_name="Tester", author_url="https://t.me/hellot343")
     
-    def convert(self, markdown_file: str) -> str:
-        markdown_string = open(markdown_file, "r").read()
-        html_string = core_converter.markdown(markdown_string)
+    def filter_html_tags(self, html_string: str) -> str:
         # Replace h2 tags with h3 tags 
         html_string = re.sub(r"<h2.*?>", "<h3>", html_string)
         html_string = re.sub(r"</h2>", "</h3>", html_string)
         # Replace span tags with p tags using regex
         html_string = re.sub(r"<span.*?>", "<p>", html_string)
         html_string = re.sub(r"</span>", "</p>", html_string)
+        return html_string
+
+    def convert_file(self, markdown_file: str) -> str:
+        markdown_string = open(markdown_file, "r").read()
+        html_string = core_converter.markdown(markdown_string)
+        html_string = self.filter_html_tags(html_string)
+        return html_string
+    
+    def convert_string(self, markdown_string: str) -> str:
+        html_string = core_converter.markdown(markdown_string)
+        html_string = self.filter_html_tags(html_string)
         return html_string
     
     def create_page(self, title: str, html_content: str) -> str:
@@ -31,9 +40,9 @@ class MarkdownToTelegraph:
         return response['url']
     
     def create_page_from_file(self, title: str, markdown_file: str) -> str:
-        html_content = self.convert(markdown_file)
+        html_content = self.convert_file(markdown_file)
         return self.create_page(title, html_content)
     
     def create_page_from_string(self, title: str, markdown_string: str) -> str:
-        html_string = core_converter.markdown(markdown_string)
+        html_string = self.convert_string(markdown_string)
         return self.create_page(title, html_content=html_string)
