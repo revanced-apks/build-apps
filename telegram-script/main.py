@@ -84,10 +84,6 @@ def main():
         credits_message=Config.CREDITS_MESSAGE,
     )
 
-    # remove whats new if changelogs is empty
-    if not changelogs:
-        release_message = release_message.replace("*What's new:*\n\n", "")
-
     print(release_message)
 
     # Write release message to file
