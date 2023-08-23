@@ -1,16 +1,15 @@
 YouTube: 18.23.35  
 Music (arm64-v8a): 6.15.51  
 Music (arm-v7a): 6.15.51  
-Twitter: 10.3.0-release.0  
+Twitter: 10.4.0-release.0  
 Twitch: 15.4.1  
-TikTok: 30.9.4  
-Reddit: 2023.32.1  
-Messenger (arm64-v8a): 422.0.0.18.107  
+TikTok: 31.0.1  
+Reddit: 2023.33.1  
 Spotify-Lite: 1.9.0.43809  
 Spotify: 8.8.62.491  
 IconPackStudio: 2.1 build 028  
-TickTick (arm64-v8a): 6.6.8.1  
-TickTick (arm-v7a): 6.6.8.1  
+TickTick (arm64-v8a): 6.6.9.1  
+TickTick (arm-v7a): 6.6.9.1  
 Tasker: 6.2.12-rc  
 Instagram (arm64-v8a): 275.0.0.27.98  
 Instagram (arm-v7a): 275.0.0.27.98  
@@ -18,7 +17,7 @@ InShorts (arm64-v8a): 5.6.4
 InShorts (arm-v7a): 5.6.4  
 Music-Extended (arm64-v8a): 6.15.51  
 Music-Extended (arm-v7a): 6.15.51  
-YouTube-Extended: 18.31.40  
+YouTube-Extended: 18.32.39  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
 
@@ -47,24 +46,27 @@ Patches: ReVanced/revanced-patches-2.187.0.jar
 
 ---
 CLI: inotia00/revanced-cli-2.22.2-all.jar  
-Integrations: YT-Advanced/revanced-integrations-0.117.0.apk  
-Patches: YT-Advanced/revanced-patches-2.188.1.jar  
+Integrations: YT-Advanced/revanced-integrations-0.117.1.apk  
+Patches: YT-Advanced/revanced-patches-2.188.2.jar  
 
-#### [2.188.1](https://github.com/YT-Advanced/ReX-patches/compare/v2.188.0...v2.188.1) (2023-08-19)
+### [2.188.2](https://github.com/YT-Advanced/ReX-patches/compare/v2.188.1...v2.188.2) (2023-08-23)
+
 
 ### Bug Fixes
 
-* **music/hide-upgrade-button:** Not worked correctly https://github.com/YT-Advanced/YT-Advanced/issues/42
+* **youtube/alternative-video-thumbnails:** Only can be included for Youtube ([7aaba99](https://github.com/YT-Advanced/ReX-patches/commit/7aaba99578a0d99233ee9fc8181663d519cb1c5a))
 
+* **SponsorBlock:** Some setting cannot be imported/exported https://github.com/YT-Advanced/YT-Advanced/issues/47
+
+* **youtube/custom-filter:** Wrong description https://github.com/YT-Advanced/YT-Advanced/issues/55
+
+* **youtube/shorts:** Exclude `optimize-resource` by default https://github.com/YT-Advanced/YT-Advanced/issues/49
 
 ### Features
 
-* **youtube:** Alternative video thumbnails [(screenshot)](https://t.me/ReXgroups/6)
+* **youtube:** Add support `v18.32.36`, `v18.32.39` ([e028129](https://github.com/YT-Advanced/ReX-patches/commit/e0281295854b10a69370b8e51d30c837cb80f802))
 
-* **youtube/hide-product-banner:** Hide new product type (in Store tab) https://github.com/YT-Advanced/YT-Advanced/issues/29
+### Misc
 
-* **youtube/hide-action-button:** Add hide for action button (like Transcript, Chapter, etc) https://github.com/YT-Advanced/RVX_BUG_CENTER/issues/1
-
-
-
+* Update translation
 ---  
