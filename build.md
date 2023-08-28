@@ -5,7 +5,6 @@ Twitter: 10.4.0-release.0
 Twitch: 15.4.1  
 TikTok: 31.0.4  
 Reddit: 2023.33.1  
-Spotify-Lite: 1.9.0.43809  
 IconPackStudio: 2.1 build 028  
 TickTick (arm64-v8a): 6.6.9.5  
 TickTick (arm-v7a): 6.6.9.5  
@@ -15,9 +14,9 @@ Instagram (arm-v7a): 275.0.0.27.98
 InShorts (arm64-v8a): 5.6.5  
 InShorts (arm-v7a): 5.6.5  
 Music-Extended (arm64-v8a): 6.16.52  
-Spotify: 8.8.64.554  
 Music-Extended (arm-v7a): 6.16.52  
 YouTube-Extended: 18.33.37  
+Spotify: 8.8.64.554  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
 
