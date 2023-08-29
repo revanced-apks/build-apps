@@ -5,8 +5,9 @@ Twitter: 10.4.0-release.0
 Twitch: 15.4.1  
 TikTok: 31.0.5  
 Reddit: 2023.34.0  
+Spotify: 8.8.64.554  
 Spotify-Lite: 1.9.0.43809  
-IconPackStudio: 2.1 build 028  
+IconPackStudio: 2.2 build 005  
 TickTick (arm64-v8a): 6.6.9.5  
 TickTick (arm-v7a): 6.6.9.5  
 Tasker: 6.2.12-rc  
@@ -16,8 +17,7 @@ InShorts (arm64-v8a): 5.6.5
 InShorts (arm-v7a): 5.6.5  
 Music-Extended (arm64-v8a): 6.16.52  
 Music-Extended (arm-v7a): 6.16.52  
-YouTube-Extended: 18.33.37  
-Spotify: 8.8.64.554  
+YouTube-Extended: 18.33.40  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
 
@@ -36,22 +36,22 @@ Patches: ReVanced/revanced-patches-2.189.0.jar
 ---
 CLI: inotia00/revanced-cli-2.22.2-all.jar  
 Integrations: YT-Advanced/revanced-integrations-0.117.3.apk  
-Patches: YT-Advanced/revanced-patches-2.189.0.jar  
+Patches: YT-Advanced/revanced-patches-2.189.1.jar  
 
-#### [2.189.0](https://github.com/YT-Advanced/ReX-patches/compare/v2.188.2...v2.189.0) (2023-08-25)
+### [2.190.0](https://github.com/YT-Advanced/ReX-patches/compare/v2.189.0...v2.190.0) (2023-08-29)
 
+## Note: Use Revanced Manager for build !
 
 ### Bug Fixes
 
-* **youtube/hide-quick-action:** Not worked correctly https://github.com/YT-Advanced/YT-Advanced/issues/68
+* **youtube/hide-fullscreen-panel:** Not worked correctly
 
-* **youtube/hide-emoji-picker:** Not worked correctly
 
-* **youtube-music/hide-upgrade-button:** Not worked without Sample button
+### Features
 
-### Feature
+* Add support for `v18.33.40` ([4bdebec](https://github.com/YT-Advanced/ReX-patches/commit/4bdebecf38c4f17c8467e4adddc4c63861943e1e))
 
-* **youtube:** Added support for `v18.33.xx`
 
-* **youtube-music:** Added support for `v6.16.52`
+
+
 ---  
