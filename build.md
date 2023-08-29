@@ -1,15 +1,15 @@
-YouTube: 18.32.39  
 Music (arm64-v8a): 6.16.52  
+YouTube: 18.32.39  
 Music (arm-v7a): 6.16.52  
 Twitter: 10.4.0-release.0  
 Twitch: 15.4.1  
 TikTok: 31.0.5  
 Reddit: 2023.34.0  
-Spotify: 8.8.64.554  
 Spotify-Lite: 1.9.0.43809  
 IconPackStudio: 2.2 build 005  
 TickTick (arm64-v8a): 6.6.9.5  
 TickTick (arm-v7a): 6.6.9.5  
+Spotify: 8.8.64.554  
 Tasker: 6.2.12-rc  
 Instagram (arm64-v8a): 275.0.0.27.98  
 Instagram (arm-v7a): 275.0.0.27.98  
@@ -34,7 +34,7 @@ Patches: ReVanced/revanced-patches-2.189.0.jar
 * Restore previous release ([f7352fe](https://github.com/ReVanced/revanced-patches/commit/f7352feb6e9604162b52072d74310b9e3067bc69))
 
 ---
-CLI: inotia00/revanced-cli-2.22.2-all.jar  
+CLI: ReVanced/revanced-cli-3.0.1-all.jar  
 Integrations: YT-Advanced/revanced-integrations-0.117.3.apk  
 Patches: YT-Advanced/revanced-patches-2.189.1.jar  
 
