@@ -1,25 +1,25 @@
 YouTube: 18.32.39  
-Music (arm64-v8a): 6.17.52  
-Music (arm-v7a): 6.17.52  
-Twitter: 10.5.0-release.1  
+Music (arm64-v8a): 6.18.52  
+Music (arm-v7a): 6.18.52  
+Twitter: 10.6.0-release.0  
 Twitch: 15.4.1  
-TikTok: 31.1.4  
-Reddit: 2023.34.0  
+TikTok: 31.2.4  
+Reddit: 2023.35.0  
 Spotify: 8.8.66.563  
-Spotify-Lite: 1.9.0.43809  
 Backdrops: 4.52  
-IconPackStudio: 2.2 build 006  
-TickTick (arm64-v8a): 6.7.0.2  
+NyxMusicPlayer: 2.2.7  
+Spotify-Lite: 1.9.0.45033  
+IconPackStudio: 2.2 build 012  
 TickTick (arm-v7a): 6.7.0.2  
+TickTick (arm64-v8a): 6.7.0.2  
 Tasker: 6.2.12-rc  
 Instagram (arm64-v8a): 275.0.0.27.98  
 Instagram (arm-v7a): 275.0.0.27.98  
-InShorts (arm64-v8a): 5.6.5  
-NyxMusicPlayer: 2.2.7  
-InShorts (arm-v7a): 5.6.5  
+InShorts (arm64-v8a): 5.6.6  
+InShorts (arm-v7a): 5.6.6  
 Music-Extended (arm64-v8a): 6.17.52  
 Music-Extended (arm-v7a): 6.17.52  
-YouTube-Extended: 18.34.37  
+YouTube-Extended: 18.35.35  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
 
@@ -40,27 +40,44 @@ Patches: ReVanced/revanced-patches-2.190.0.jar
 
 ---
 CLI: ReVanced/revanced-cli-3.1.0-all.jar  
-Integrations: YT-Advanced/revanced-integrations-0.118.0.apk  
-Patches: YT-Advanced/revanced-patches-2.190.0.jar  
+Integrations: YT-Advanced/revanced-integrations-0.119.0.apk  
+Patches: YT-Advanced/revanced-patches-2.190.1.jar  
 
-### [2.190.0](https://github.com/YT-Advanced/ReX-patches/compare/v2.189.0...v2.190.0) (2023-09-01)
+### [2.190.1](https://github.com/YT-Advanced/ReX-patches/compare/v2.190.0...v2.190.1) (2023-09-09)
 
-
-### Bug Fixes
-
-* **hide-filmstip-overlay:** The filmstrip preview didn't showed https://github.com/YT-Advanced/YT-Advanced/issues/99
-* **language-switch:** Not shown in `v18.33.xx` https://github.com/YT-Advanced/YT-Advanced/issues/98
-* **youtube/hide-emoji-picker:** Not get hidden on comment section https://github.com/YT-Advanced/YT-Advanced/issues/104
-
-
-### Features
-
-* Add support for `v18.34.37`
-
-* **higher-seekbar-height:** This patch will increase the seekbar height, which is helpful for user who have a big screen ([3c9fe28](https://github.com/YT-Advanced/ReX-patches/commit/3c9fe28075eead38d65bb2bfbba5b4456d0d9c2c))
-
-* **youtube/layout:** Hide quality layout footer https://github.com/YT-Advanced/ReX-patches/issues/20
-
-
-
+# YouTube
+- **feat(youtube)**: add support version `v18.35.xx`
+- **feat(youtube/hide-player-flyout-panel)**: Hide Caption footer https://github.com/YT-Advanced/YT-Advanced/issues/111
+- **fix(youtube/hide-player-flyout-panel)**: Not worked
+ https://github.com/YT-Advanced/YT-Advanced/issues/112
+- **fix(youtube/custom-playback-speed)**: Does not work on tablet devices
+- **fix(youtube/custom-playback-speed)**: When user opens the sharing panel, the custom playback speed panel opens
+- **fix(youtube/hide-layout-components)**: Custom filters are separated by commas instead of line-by-line
+- **fix(youtube/hide-layout-components)**: Expandable chip under videos not hidden in related videos
+- **fix(youtube/old-quality-layout)**: Does not work on tablet devices 
+- **fix(youtube/overlay-button)**: Overlay button not hidden when scrubbing seekbar https://github.com/YT-Advanced/YT-Advanced/issues/7
+# YouTube Music
+- **feat(music)**: Add `enable-old-style-library-shelf` patch
+- **feat(music)**: Add `enable-playback-speed` patch
+- **feat(music)**: Add `hide-button-container-labels` patch
+- **feat(music)**: Add `hide-emoji-picker` patch
+- **feat(music)**: Add `hide-flyout-panel` patch
+- **feat(music)**: Add `hide-radio-button` patch
+- **feat(music)**: Add `hide-sample-button` patch
+- **feat(music)**: Add `hide-tooltip-content` patch
+- **feat(music)**: Add `hook-download-button` patch
+- **feat(music)**: Add `remember-playback-speed` patch
+- **feat(music)**: Add `return-youtube-dislike` patch https://github.com/YT-Advanced/YT-Advanced/issues/108
+- **feat(music)**: Delete `share-button-hook` patch
+- **feat(music)**: Remove decoding-patch that are no longer used
+- **feat(music/amoled)**: Patch now applies the amoled theme to the comment input box as well
+- **feat(music/enable-custom-filter)**: Separate filters by line instead of commas
+- **feat(music/settings)**: Apply material style to alert dialog
+- **feat(music/settings)**: Change some default value
+- **feat(music/settings)**: Remove divider from settings
+- **feat(music/settings)**: When installing for the first time, a reboot dialog is shown
+- **feat(music/shared-resource-id)**: If the target resource ID is not found, empty index is returned instead of generating patch exception
+- **feat(music/hide-get-premium)**: Patch now also hides the premium membership label in settings
+- **fix(music/settings)**: Blank screen appears when text input dialog is shown
+- **refactor(music/settings)**: Change settings structure
 ---  
