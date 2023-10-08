@@ -16,7 +16,6 @@ Backdrops: 4.52
 MyExpenses: 3.5.8  
 NyxMusicPlayer: 2.2.7  
 IconPackStudio: 2.2 build 016  
-TickTick (arm64-v8a): 6.7.0.7  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
 
@@ -28,12 +27,12 @@ Integrations: inotia00/revanced-integrations-0.117.24.apk
 Patches: inotia00/revanced-patches-2.190.24.jar  
 [Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v2.190.24)
 
-CLI: j-hc/revanced-cli-4.0.0-all.jar  
-Integrations: ReVanced/revanced-integrations-0.118.0.apk  
-Patches: ReVanced/revanced-patches-2.192.0.jar  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v2.192.0)
+CLI: j-hc/revanced-cli-4.0.1-all.jar  
+Integrations: ReVanced/revanced-integrations-0.119.0.apk  
+Patches: ReVanced/revanced-patches-2.193.0.jar  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v2.193.0)
 
-CLI: ReVanced/revanced-cli-4.0.0-all.jar  
+CLI: ReVanced/revanced-cli-4.0.1-all.jar  
 Integrations: YT-Advanced/revanced-integrations-0.117.12.apk  
 Patches: YT-Advanced/revanced-patches-2.192.2.jar  
 [Changelog](https://github.com/YT-Advanced/ReX-patches/releases/tag/v2.192.2)  
