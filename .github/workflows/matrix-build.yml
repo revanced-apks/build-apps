@@ -146,6 +146,7 @@ jobs:
 
   release-metadata:
     needs: [generate-release, run]
+    if: ${{ github.ref_name == 'main' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
