@@ -155,6 +155,7 @@ jobs:
           fetch-depth: 0
 
       - name: Prepare build.md
+        continue-on-error: true
         run: |
           cp extras.sh /tmp/extras.sh
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
