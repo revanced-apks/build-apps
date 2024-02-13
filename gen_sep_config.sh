@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Check for correct number of arguments
+if [ $# -ne 3 ]; then
+    echo "Usage: $0 <config_file> <key_to_match> <output_file>"
+    exit 1
+fi
+
 # Parse the TOML file
 config_file=$1
 key_to_match=$2
