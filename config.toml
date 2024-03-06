@@ -171,12 +171,13 @@ arch = "both"
 [YouTube-ReX]
 enabled = true
 app-name = "YouTube"
-version = "auto"
+version = "latest"
 patches-source = "YT-Advanced/ReX-patches"
 integrations-source = "YT-Advanced/ReX-integrations"
 rv-brand = "ReX"
 build-mode = "apk"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+excluded-patches = "'Player flyout menu'"
 
 [VSCO]
 enabled = true
