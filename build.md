@@ -16,7 +16,7 @@ revanced-patches-4.3.0.jar.asc
 CLI: ReVanced
 ReVanced/revanced-cli-4.5.0-all.jar
 revanced-cli-4.5.0-all.jar.asc  
-Integrations: YT-Advanced/revanced-integrations-0.146.1.apk  
-Patches: YT-Advanced/revanced-patches-2.220.9.jar  
-[Changelog](https://github.com/YT-Advanced/ReX-patches/releases/tag/v2.220.9)
+Integrations: anddea/revanced-integrations-0.147.0.apk  
+Patches: anddea/revanced-patches-2.221.0.jar  
+[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v2.221.0)
 
