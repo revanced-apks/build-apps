@@ -16,7 +16,10 @@ revanced-patches-4.3.0.jar.asc
 CLI: ReVanced
 ReVanced/revanced-cli-4.5.0-all.jar
 revanced-cli-4.5.0-all.jar.asc  
-Integrations: anddea/revanced-integrations-0.147.0.apk  
-Patches: anddea/revanced-patches-2.221.0.2.jar  
-[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v2.221.0.2)
+Integrations: anddea/revanced-integrations-0.149.0.apk  
+Patches: anddea
+anddea/revanced-patches-2.222.0.jar
+revanced-patches-2.222.0.jar.asc  
+[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v2.222.0
+2.222.0.jar)
 
