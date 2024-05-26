@@ -13,6 +13,14 @@ revanced-patches-4.8.2.jar.asc
 
 
 
+CLI: inotia00/revanced-cli-4.6.1-all.jar  
+Integrations: inotia00/revanced-integrations-1.9.2.apk  
+Patches: inotia00/revanced-patches-4.8.3.jar  
+[Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v4.8.3)
+
+
+
+
 CLI: ReVanced
 ReVanced/revanced-cli-4.6.0-all.jar
 revanced-cli-4.6.0-all.jar.asc  
