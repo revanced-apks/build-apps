@@ -2,13 +2,13 @@ CLI: ReVanced
 ReVanced/revanced-cli-4.6.0-all.jar
 revanced-cli-4.6.0-all.jar.asc  
 Integrations: ReVanced
-ReVanced/revanced-integrations-1.11.0.apk
-revanced-integrations-1.11.0.apk.asc  
+ReVanced/revanced-integrations-1.11.1.apk
+revanced-integrations-1.11.1.apk.asc  
 Patches: ReVanced
-ReVanced/revanced-patches-4.10.0.jar
-revanced-patches-4.10.0.jar.asc  
-[Changelog](https://github.com/revanced/revanced-patches/releases/tag/v4.10.0
-4.10.0.jar)
+ReVanced/revanced-patches-4.11.0.jar
+revanced-patches-4.11.0.jar.asc  
+[Changelog](https://github.com/revanced/revanced-patches/releases/tag/v4.11.0
+4.11.0.jar)
 
 
 
