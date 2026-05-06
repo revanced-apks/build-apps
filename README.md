@@ -3,6 +3,16 @@
 [![Build Modules](https://github.com/revanced-apks/build-apps/actions/workflows/build.yml/badge.svg)](https://github.com/revanced-apks/build-apps/actions/workflows/build.yml)
 [![CI](https://github.com/revanced-apks/build-apps/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/revanced-apks/build-apps/actions/workflows/ci.yml)
 
+> [!IMPORTANT]
+> This project is no longer maintained and is now effectively read-only.
+>
+> The repository is being kept online for archival/reference purposes only.
+> It may contain incomplete, broken, or non-functional implementations from past research and experimentation.
+>
+> Issues, pull requests, and feature requests may not receive responses or updates.
+
+
+
 Extensive ReVanced builder  
 
 Get the [latest CI release](https://github.com/revanced-apks/build-apps/releases).
